@@ -166,7 +166,7 @@ class Locations(Resource):
 
 '''
 Add new endpoints that point to our new classes above.
- - Will add to 'api', which is declaired above ass the app.
+ - Will add to 'api', which is declaired above as the app.
 '''
 api.add_resource(
     Users, '/users'
